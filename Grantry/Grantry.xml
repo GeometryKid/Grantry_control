@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/23/26||21:10:15" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Grantry" uid="Grantry" version="217">
+<AssemblyFile name="Grantry.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Z1-1" uid="Z1-1" entityUid="Z1*:*Ä¬ÈÏ">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.045518650588285609 0.099999999999999756 -0.056050000000000266</Translation>
+</Transform>
+</Instance>
+<Instance name="Y2-1" uid="Y2-1" entityUid="Y2*:*Ä¬ÈÏ">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>6.2095678428968314e-16 0.10000000000000063 0.056050000000000703</Translation>
+</Transform>
+</Instance>
+<Instance name="actuator2-1" uid="actuator2-1" entityUid="actuator2*:*Ä¬ÈÏ">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.035550000000017352 0.045449999999981339 0.05605000000000239</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.039215686274509803" g="0.49019607843137253" b="0.70980392156862748" a="1"/>
+<Diffuse r="0.039215686274509803" g="0.49019607843137253" b="0.70980392156862748" a="1"/>
+<Specular r="0.011764705882352941" g="0.14705882352941174" b="0.21294117647058824" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Y1-1" uid="Y1-1" entityUid="Y1*:*Ä¬ÈÏ">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.5772529270479177e-15 0.099999999999999686 -0.056050000000000266</Translation>
+</Transform>
+</Instance>
+<Instance name="platform-1" uid="platform-1" entityUid="platform*:*Ä¬ÈÏ">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.10000000000000001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="actuator1-1" uid="actuator1-1" entityUid="actuator1*:*Ä¬ÈÏ">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.045518650588286413 0.045449999999998714 -0.056049999999997269</Translation>
+</Transform>
+</Instance>
+<Instance name="Z2-1" uid="Z2-1" entityUid="Z2*:*Ä¬ÈÏ">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.035550000000007353 0.10000000000000081 0.056050000000000558</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>platform-1</Uid>
+</InstancePath>
+<Position>0 -0.10000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Grantry</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>platform-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Grantry</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>platform-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Grantry</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>platform-1</Uid>
+</InstancePath>
+<Position>0.597343892968348 0.26250000000000207 -0.80000000000000004</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Y1-1</Uid>
+</InstancePath>
+<Position>0.597343892968346 0.26250000000000101 -0.68705000000000005</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>platform-1</Uid>
+</InstancePath>
+<Position>0.58583707027645693 0.25967600000000202 -0.80000000000000004</Position>
+<Axis>-0.86517745099157151 -0.50146582963919573 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Y1-1</Uid>
+</InstancePath>
+<Position>0.58583707027645493 0.25967600000000102 -0.68705000000000005</Position>
+<Axis>0.86517745099157273 0.50146582963919384 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Y1-1</Uid>
+</InstancePath>
+<Position>-0.47000000001269304 0.42850000000000094 -0.73634389298103908</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Z1-1</Uid>
+</InstancePath>
+<Position>0.42448134939902393 0.42850000000000099 -0.73634389298103908</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Y1-1</Uid>
+</InstancePath>
+<Position>-0.47000000001269304 0.42324582624991686 -0.73675437578430591</Position>
+<Axis>0 -0.50146582963919573 -0.86517745099157151</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Z1-1</Uid>
+</InstancePath>
+<Position>0.42448134939902393 0.42324582624991691 -0.73675437578430591</Position>
+<Axis>0 0.50146582963919384 0.86517745099157273</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Z1-1</Uid>
+</InstancePath>
+<Position>0.4098752423800629 0.47195000000000109 -0.57699999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>actuator1-1</Uid>
+</InstancePath>
+<Position>0.40987524238006195 0.52650000000000197 -0.57700000000000295</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Z1-1</Uid>
+</InstancePath>
+<Position>0.39837368424393782 0.47195000000000098 -0.57400108522665094</Position>
+<Axis>0.86879663609236146 1.737593272184723e-15 -0.49516906720290671</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>actuator1-1</Uid>
+</InstancePath>
+<Position>0.39837368424393688 0.52650000000000197 -0.57400108522665405</Position>
+<Axis>-0.86879663609236146 -1.737593272184723e-15 0.49516906720290671</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>platform-1</Uid>
+</InstancePath>
+<Position>0.597343892968348 0.26250000000000207 -0.80000000000000004</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Y2-1</Uid>
+</InstancePath>
+<Position>0.597343892968348 0.26250000000000001 0.63194999999999801</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>platform-1</Uid>
+</InstancePath>
+<Position>0.58583707027645693 0.25967600000000202 -0.80000000000000004</Position>
+<Axis>-0.86517745099157151 -0.50146582963919573 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Y2-1</Uid>
+</InstancePath>
+<Position>0.58583707027645793 0.25967599999999902 0.743949999999999</Position>
+<Axis>0.86517745099157273 0.50146582963919384 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Y2-1</Uid>
+</InstancePath>
+<Position>0.46999999998730096 0.42850000000000099 0.73634389298104308</Position>
+<Axis>-2.0000000000000002e-15 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Z2-1</Uid>
+</InstancePath>
+<Position>-0.43445000001270107 0.42849999999999894 0.73634389298103786</Position>
+<Axis>4.0000000000000003e-15 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Y2-1</Uid>
+</InstancePath>
+<Position>0.46999999998730102 0.42567600000000094 0.72483707028915212</Position>
+<Axis>4.4636414632446778e-15 -0.50146582963919573 -0.86517745099157151</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Z2-1</Uid>
+</InstancePath>
+<Position>-0.43445000001270095 0.42567599999999889 0.7248370702891469</Position>
+<Axis>-7.1969280245062113e-15 0.50146582963919384 0.86517745099157273</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Z2-1</Uid>
+</InstancePath>
+<Position>-0.4198438929937392 0.47194999999999804 0.57699999999999996</Position>
+<Axis>5.9999999999999997e-15 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>actuator2-1</Uid>
+</InstancePath>
+<Position>-0.41984389299373542 0.52650000000000086 0.57699999999999796</Position>
+<Axis>-5.9999999999999997e-15 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Z2-1</Uid>
+</InstancePath>
+<Position>-0.42027471614795958 0.47194999999999804 0.57157463831004596</Position>
+<Axis>0.86879663609235869 5.2127798165541691e-15 0.49516906720291204</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>actuator2-1</Uid>
+</InstancePath>
+<Position>-0.42027471614795575 0.52650000000000086 0.57157463831004396</Position>
+<Axis>-0.86879663609235869 -1.4769542813570149e-14 -0.49516906720291204</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Y1" uid="Y1*:*Ä¬ÈÏ" version="413">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Y1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>12.798869976065784</Mass>
+<CenterOfMass>0.0060524544313182984 0.3520836987250503 -0.6825746501315475</CenterOfMass>
+<Inertia>0.076852409769676847 1.953195480651192 1.9632137982109088 0.0010831418697025003 0.0097142993794917792 -0.0023970805139335704</Inertia>
+</MassProperties>
+<GeometryFile name="Y1_Ä¬ÈÏ_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Y2" uid="Y2*:*Ä¬ÈÏ" version="407">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Y2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>12.789817477120538</Mass>
+<CenterOfMass>-0.0064599912645737717 0.35212478804929481 0.68267121618020987</CenterOfMass>
+<Inertia>0.07651477345081717 1.9497842785941928 1.9600751270618382 -0.0009965496240284949 0.0086667249392045967 0.002027415962017682</Inertia>
+</MassProperties>
+<GeometryFile name="Y2_Ä¬ÈÏ_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Z1" uid="Z1*:*Ä¬ÈÏ" version="175">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Z1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.7729725010170971</Mass>
+<CenterOfMass>0.33112130998947736 0.41322762873334018 -0.63774479311260068</CenterOfMass>
+<Inertia>0.01039081931262237 0.011451539837504496 0.011840694402386566 0.002706894765622601 -5.4115450637870955e-06 -3.2959854240882235e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Z1_Ä¬ÈÏ_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Z2" uid="Z2*:*Ä¬ÈÏ" version="173">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Z2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.7727061174895422</Mass>
+<CenterOfMass>-0.34109012439090275 0.41324524446160882 0.63774498075591257</CenterOfMass>
+<Inertia>0.010387153305841097 0.011451489772350412 0.011836987112762171 -0.002706855765580966 -5.4119076788741811e-06 2.9555667336708887e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Z2_Ä¬ÈÏ_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="actuator1" uid="actuator1*:*Ä¬ÈÏ" version="353">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="actuator1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.1291325102187906</Mass>
+<CenterOfMass>0.32768785479094259 0.37278699136512927 -0.54199488680735852</CenterOfMass>
+<Inertia>0.019832656647999859 0.0091082482001690335 0.025323204116651555 0.0029207923932809609 0.00034966301478569389 -0.00064284625680845013</Inertia>
+</MassProperties>
+<GeometryFile name="actuator1_Ä¬ÈÏ_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="actuator2" uid="actuator2*:*Ä¬ÈÏ" version="352">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="actuator2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.1287403257069766</Mass>
+<CenterOfMass>-0.33764867129459558 0.37280371733589773 0.54198968870318387</CenterOfMass>
+<Inertia>0.019829092005946056 0.0091072099410224004 0.025319249538732862 -0.0029217974725069791 0.00034919731941189584 0.00064436107019049467</Inertia>
+</MassProperties>
+<GeometryFile name="actuator2_Ä¬ÈÏ_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="platform" uid="platform*:*Ä¬ÈÏ" version="1047">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="platform.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>483.19326490008126</Mass>
+<CenterOfMass>-2.4473936784169074e-05 0.03671161327473673 0.00064920642253170704</CenterOfMass>
+<Inertia>105.19184201424366 171.19128421135355 74.023802858655372 -0.060455275277256013 0.0070656506539571859 0.0015919750770724637</Inertia>
+</MassProperties>
+<GeometryFile name="platform_Ä¬ÈÏ_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
