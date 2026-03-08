@@ -1,0 +1,2 @@
+# Grantry_control
+基于simscape的龙门架平台控制，支持xbox，冰原狼等一系列市面上的手柄进行遥控
